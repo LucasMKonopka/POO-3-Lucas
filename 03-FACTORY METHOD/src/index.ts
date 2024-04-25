@@ -1,6 +1,6 @@
 import CarTransport from "./transport/CarTransport";
 import Transport from "./transport/Transport";
-import MotorcycleTransport from "./transport/vehicles/MotorcycleTransport";
+import MotorcycleTransport from "./transport/MotorcycleTransport";
 
 declare var process;
 
