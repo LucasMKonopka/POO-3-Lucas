@@ -1,4 +1,4 @@
-import Client from "./clients.ts/Client";
+import Client from "./clients/Client";
 import Company from "./transport/Company";
 import IndriveTransport from "./transport/IndriveTransport";
 import NineNineTransport from "./transport/NineNineTransport";
