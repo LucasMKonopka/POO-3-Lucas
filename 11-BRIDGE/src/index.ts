@@ -1,3 +1,5 @@
+import Facebook from "./platforms/Facebook";
+import Twitch from "./platforms/Twitch";
 import Youtube from "./platforms/Youtube";
 import IPlatform from "./platforms/interfaces/IPlatform";
 import AdvancedLive from "./transmissions/AdvancedLive";
@@ -19,6 +21,7 @@ function startAdvancedLive(platform : IPlatform){
     live.comments();
     console.log("---------------------------");
 }
-
 startAdvancedLive(new Youtube());
-startLive(new Youtube());
+startAdvancedLive(new Twitch());
+startAdvancedLive(new Facebook());
+//startLive(new Facebook());

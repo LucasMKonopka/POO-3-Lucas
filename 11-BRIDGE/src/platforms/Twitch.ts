@@ -4,7 +4,7 @@ export default class Twitch implements IPlatform{
 
     constructor(){
         this.configureRMTP();
-        console.log("Twitch: Plataforma configurada!")
+        console.log("Twitch: Plataforma confifigurada!");
     }
 
     configureRMTP(): void {
@@ -12,7 +12,7 @@ export default class Twitch implements IPlatform{
         console.log("Twitch: Configurando Broadcasting.");
     }
     authToken(): void {
-        throw new Error("Twitch: Autorizando a plataforma.");
+        console.log("Twitch: Autorizando a plataforma.");
     }
 
 }
