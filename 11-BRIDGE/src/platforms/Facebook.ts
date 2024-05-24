@@ -4,7 +4,7 @@ export default class Facebook implements IPlatform{
 
     constructor(){
         this.configureRMTP();
-        console.log("Facebook: Plataforma confifigurada!");
+        console.log("Facebook: Plataforma configurada!");
     }
 
     configureRMTP(): void {
